@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_homee"
+    android:gravity="center"
+    tools:context="com.pro1.vukn.englishforkids.com.ndt.vukn.englishforkids.HomeActivity">
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_btn_home"
+        android:drawableLeft="@drawable/star"
+        android:padding="10dp"
+        android:text="Start Learning"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:background="@drawable/bg_btn_home"
+        android:drawableLeft="@drawable/star1"
+        android:id="@+id/btnVideo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Video"
+
+        />
+
+    <Button
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:background="@drawable/bg_btn_home"
+        android:id="@+id/btnGame"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/star3"
+        android:text="Mini Game" />
+</LinearLayout>
