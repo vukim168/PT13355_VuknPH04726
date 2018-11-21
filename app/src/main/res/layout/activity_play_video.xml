@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_homee"
     tools:context="com.pro1.vukn.englishforkids.PlayVideoActivity">
     <com.google.android.youtube.player.YouTubePlayerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/myYoutube">
+        android:id="@+id/myYoutube"
+        >
 
     </com.google.android.youtube.player.YouTubePlayerView>
 </android.support.constraint.ConstraintLayout>
