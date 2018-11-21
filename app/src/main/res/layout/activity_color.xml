@@ -25,6 +25,9 @@
 
                 <Button
 
+                    android:text="Red"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnRed"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -32,6 +35,9 @@
                     android:background="#ff0000" />
 
                 <Button
+                    android:text="Yelllow"
+                    android:textSize="20dp"
+                    android:textColor="#000"
                     android:id="@+id/btnYellow"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -39,6 +45,9 @@
                     android:background="#fff700" />
 
                 <Button
+                    android:text="ORANGE"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnOrange"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -52,6 +61,9 @@
                 android:gravity="center">
 
                 <Button
+                    android:text="GREEN"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnGreen"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -59,6 +71,9 @@
                     android:background="#62e636" />
 
                 <Button
+                    android:text="BLUE"
+                    android:textSize="20dp"
+                    android:textColor="#000"
                     android:id="@+id/btnBlue"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -66,6 +81,9 @@
                     android:background="#00c8ff" />
 
                 <Button
+                    android:text="BLACK"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnBlack"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -79,6 +97,9 @@
                 android:gravity="center">
 
                 <Button
+                    android:text="PURPLE"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnPurple"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -86,17 +107,25 @@
                     android:background="#6200ff" />
 
                 <Button
-                    android:id="@+id/btnPink"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginRight="15dp"
-                    android:background="#fa40e4" />
-
-                <Button
+                    android:text="WHITE"
+                    android:textSize="20dp"
+                    android:textColor="#000"
                     android:id="@+id/btnWhite"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:layout_marginRight="15dp"
                     android:background="#ffffff" />
+
+                <Button
+                    android:text="PINK"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnPink"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#fa40e4" />
+
+
             </LinearLayout>
 
             <LinearLayout
@@ -106,6 +135,9 @@
                 android:gravity="center">
 
                 <Button
+                    android:text="GRAY"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
                     android:id="@+id/btnGray"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -113,11 +145,25 @@
                     android:background="#8d8d8d" />
 
                 <Button
-                    android:id="@+id/btnBrown"
+                    android:text="BEIGE"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/btnGray"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginRight="15dp"
+                    android:background="#d2d67f" />
+
+                <Button
+                    android:text="BROWN"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnBrown"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#923100" />
+
+
 
             </LinearLayout>
         </LinearLayout>
